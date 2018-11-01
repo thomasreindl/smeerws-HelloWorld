@@ -14,10 +14,10 @@ public class HelloWorld : MonoBehaviour {
 
         print("(print) Hello World");
         Debug.Log("(Debug.Log) Hello World");
-        Console.WriteLine("(Console.WriteLine) Hello World"); //Console.WriteLine does nothing inside the unity Engine,
+        Console.WriteLine("(Console.WriteLine) Hello World"); //Console.WriteLine does nothing inside the Unity Engine,
                                                               //because Unity uses a custom console, only accessed 
-                                                              //through Unity engine: Debug.Log, ...
-                                                              //Unity doesn't display the standard C# Console
+                                                              //through Unity Engine: Debug.Log, ...
+                                                              //Unity doesn't display the standard C# Console.
 
         print("(print - hw) " + hw);
         Debug.Log("(Debug.Log - hw ) " + hw);
